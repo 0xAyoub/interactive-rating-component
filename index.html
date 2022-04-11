@@ -13,28 +13,41 @@
 
 
 <section class="rating">
-  <div class="bubble">
+  <div class="bubble visible">
     <img src="images/icon-star.svg" alt="star">
   </div>
 
-  <h2 class="title">How did we do ?</h2>
-  <p class="text">
+  <h2 class="title visible">How did we do ?</h2>
+  <p class="text visible">
   Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
   </p>
 
 
-  <form action="submit" class="form">
-    <div class="numbers">
-      <input type="button" value="1" class="bubble2 one" id="rating">
-      <input type="button" value="2" class="bubble2" id="rating">
-      <input type="button" value="3" class="bubble2" id="rating">
-      <input type="button" value="4" class="bubble2" id="rating">
-      <input type="button" value="5" class="bubble2" id="rating">
+  <form action="submit" class="form visible">
+    <div class="numbers visible">
+      <input type="button" value="1" class="bubble2 one visible" id="rating">
+      <input type="button" value="2" class="bubble2 visible" id="rating">
+      <input type="button" value="3" class="bubble2 visible" id="rating">
+      <input type="button" value="4" class="bubble2 visible" id="rating">
+      <input type="button" value="5" class="bubble2 visible" id="rating">
     </div>
-    <a href="#">
-      <button class="btn-submit">Submit</button>
-    </a>
-  </form>
+  </form> 
+  <a href="#" class="submit visible">
+    <button class="btn-submit visible">Submit</button>
+  </a>
+
+  <div class="thank-box hidden">
+    <img src="images/illustration-thank-you.svg" alt="Thank You" class="thank-img hidden">    
+    <div class="user-rating hidden">
+        <p class="user-rating-text hidden">You selected <span class="value">5</span> out of 5.</p>
+    </div>
+    <div class="thank-write hidden">
+        <h2 class="thank-title hidden">Thank you!</h2>
+        <p class="thank-text hidden">
+        Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+        </p>
+    </div>
+</div>   
 
 
 

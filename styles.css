@@ -30,11 +30,14 @@
 
 body{
     background-color: hsl(210, 5%, 8%);
-    padding: 250px 35%;
+    padding: 5% 35%;
     color: whitesmoke;
     font-family: Montserrat;
 }
 
+.hidden{
+    display: none;
+}
 
 .rating{
     background-color: hsl(213, 19%, 18%);
@@ -144,3 +147,4 @@ body{
     margin: 0;
     font-size: 15px;
 }
+
