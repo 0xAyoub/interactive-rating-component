@@ -88,7 +88,7 @@ body{
     background: hsl(216, 12%, 54%);
 }
 
-.bubble2:active{
+.selected{
     background: hsl(25, 97%, 53%);
 }
 
