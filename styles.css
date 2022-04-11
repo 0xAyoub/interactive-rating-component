@@ -115,3 +115,32 @@ body{
     color: hsl(25, 97%, 53%);
     background-color: white;
 }
+
+
+/*  Thank Page  */
+
+.thank-box{
+    display: grid;
+    grid-template-rows: 1fr 0.3fr 1fr;
+    justify-items: center;
+}
+
+.thank-write{
+    text-align: center;
+}
+
+.user-rating{
+    background: hsl(216, 12%, 22%);
+    padding: 5px 15px;
+    margin: 0 40px;
+    border-radius: 25px;
+    display: flex;
+}
+
+.user-rating-text{
+    align-self: center;
+    font-weight: 500;
+    color: hsl(25, 97%, 53%);
+    margin: 0;
+    font-size: 15px;
+}

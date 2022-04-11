@@ -4,9 +4,12 @@ for (let i = 0; i < ratings.length; i++) {
             try{
                 document.querySelector('.selected').classList.remove('selected')
             } catch {}
-            this.classList.add('selected')  
+            this.classList.add('selected')
+            const value = this.value
+            console.log(value)
     })
 }
+
 
 
 
