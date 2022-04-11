@@ -18,11 +18,8 @@ for (let i = 0; i < ratings.length; i++) {
                         visible.classList.add('hidden')
                     });
                 });
-
                 document.querySelector('.value').innerHTML = value
-
             })
-
     })
 }
 
